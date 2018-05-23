@@ -54,6 +54,7 @@ export default {
     bottom: 0;
     height: 100px;
     margin: 0;
+    z-index: 100;
     >h4{
       display: none;
     }
