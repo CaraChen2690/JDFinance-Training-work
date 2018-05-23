@@ -1,9 +1,9 @@
 <template lang="html">
-    <Panel title="众筹新品" :class="$style.panel">
+    <Panel title="保险保障" :class="$style.panel">
         <section :class="$style.content">
-            <div class="arrow">更多尖货 ></div>
             <Slider :options="options" :items="items" cname="product-slider"/>
         </section>
+        <img src="//img12.360buyimg.com/jrpmobile/jfs/t15583/348/2209539372/42536/6bae28a8/5a953b19Nd7e46726.jpg?width=750&height=200" alt="">
     </Panel>
 </template>
 
@@ -19,13 +19,19 @@ export default {
         return {
             items: [{
                 href: "home",
-                src: "//img12.360buyimg.com/jrpmobile/jfs/t21559/102/59104594/47942/f8d9e459/5af9055dN55aa9554.jpg?width=335&height=421",
+                src: "//img12.360buyimg.com/jrpmobile/jfs/t12355/171/849656870/29064/92c9bc12/5a153643N04efba6e.jpg?width=210&height=260",
             }, {
                 href: "home",
-                src: "//img12.360buyimg.com/jrpmobile/jfs/t21364/117/63805922/48719/7d9b8fb4/5af9056aN106a173e.jpg?width=335&height=421",
+                src: "//img12.360buyimg.com/jrpmobile/jfs/t9697/338/291348712/12737/27e1204/59cb6304Naef85042.jpg?width=210&height=260",
             }, {
                 href: "home",
-                src: "//img12.360buyimg.com/jrpmobile/jfs/t16717/179/2537323270/43542/a5a5e4c/5af90576Ndba39333.jpg?width=335&height=421",
+                src: "//img12.360buyimg.com/jrpmobile/jfs/t10360/347/311063647/10881/14a5cd40/59cb632fNcac82571.jpg?width=210&height=260",
+            }, {
+                href: "home",
+                src: "//img12.360buyimg.com/jrpmobile/jfs/t13927/226/2090083878/14208/2746192a/5a31dde6Nbba7f26c.png?width=210&height=260",
+            }, {
+                href: "home",
+                src: "//img12.360buyimg.com/jrpmobile/jfs/t9703/119/296348375/11253/b9bc3ce7/59cb637dNf25b0dff.jpg?width=210&height=260",
             }],
             options: {
                 slidesPerView: 2.3,
@@ -64,14 +70,10 @@ export default {
     @include panel;
     .content{
       padding-bottom: 40px;
-      position: relative;
-      &>div{
-        position: absolute;
-        font-size: 28px;
-        color: #999;
-        right:20px;
-        top: -70px;
-      }
+    }
+    >img{
+      width: 100%;
+      height: auto;
     }
   }
 </style>
