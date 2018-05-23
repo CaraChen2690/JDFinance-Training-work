@@ -22,13 +22,16 @@ export default {
         return {
             items: [{
                 href: "home",
-                src: "//img12.360buyimg.com/jrpmobile/jfs/t13744/11/2508939408/43213/58bfe502/5a421ff3N52d0a474.jpg?width=750&height=320",
+                src: "//img12.360buyimg.com/jrpmobile/jfs/t16705/340/2641722058/46718/cb02e45d/5b0405aaNa1e01746.jpg?width=750&height=320",
             }, {
                 href: "home",
-                src: "//img12.360buyimg.com/jrpmobile/jfs/t16138/325/817844900/36681/5d874455/5a422029Ncd678ea3.jpg?width=750&height=320",
+                src: "//img12.360buyimg.com/jrpmobile/jfs/t20104/122/643508447/36942/6eb14e19/5b0405b4N9940c355.jpg?width=745&height=320",
             }, {
                 href: "home",
-                src: "//img12.360buyimg.com/jrpmobile/jfs/t13465/324/2563794460/43029/3ffca963/5a421f83Ne8089231.jpg?width=750&height=320",
+                src: "//img12.360buyimg.com/jrpmobile/jfs/t18373/323/2676053011/41310/ae720c06/5b0405dbN86d98172.jpg?width=750&height=320",
+            },{
+                href: "home",
+                src: "//img12.360buyimg.com/jrpmobile/jfs/t21613/223/233916950/38282/15bf00a3/5b0405efNcfc31026.jpg?width=750&height=320",
             }],
             enters: [{
                 href: "home",
@@ -44,10 +47,6 @@ export default {
                 title: "抢钢镚",
             }, {
                 href: "home",
-                img: "//img12.360buyimg.com/jrpmobile/jfs/t4618/115/2179710654/11347/bf520df/58ec9d84Nfd169001.png?width=132&height=132",
-                title: "领京豆",
-            }, {
-                href: "home",
                 img: "//img12.360buyimg.com/jrpmobile/jfs/t5488/298/1036263348/12073/b4f4de97/590ac8e8Ne9def22e.png?width=135&height=135",
                 title: "白条提额",
             }],
@@ -59,7 +58,7 @@ export default {
 <style lang="scss" module>
   @import "../../css/element.scss";
   .slider{
-    margin-top: 120px;
+    margin-top: 100px;
     img{
       width: 100%;
     }

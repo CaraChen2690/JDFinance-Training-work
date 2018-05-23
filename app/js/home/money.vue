@@ -2,7 +2,7 @@
     <Panel title="理财精选" :class="$style.panel">
         <section :class="$style.content">
             <dl :class="$style.item" v-for="item in items" :key="item.title">
-                <dt>{{ item.title }}<span>{{ item.sub }}</span></dt>
+                <dt>{{ item.title }}<span v-if="item.have">{{ item.sub }}</span></dt>
                 <dd>{{ item.rate }}</dd>
                 <dd>{{ item.text }}</dd>
             </dl>
@@ -19,25 +19,29 @@ export default {
     data() {
         return {
             items: [{
-                title: "定期理财",
-                sub: "理财首选",
-                rate: "5.60%",
-                text: "历史年化回报率",
+                title: "京渤随享盈",
+                sub: "",
+                rate: "5.50%",
+                text: "历史年化收益率",
+                have: false,
             }, {
-                title: "小白理财",
-                sub: "理财首选",
-                rate: "4.22%",
-                text: "7日年化收益率",
+                title: "年年盈",
+                sub: "理财推荐",
+                rate: "5.10%",
+                text: "综合年化收益率",
+                have: true,
             }, {
-                title: "月月盈",
-                sub: "养老保障",
-                rate: "5%",
-                text: "七日年化收益率",
+                title: "京智2号",
+                sub: "火爆发售",
+                rate: "15.60%",
+                text: "历史年化收益率",
+                have: true,
             }, {
                 title: "小白基金",
-                sub: "天天赚钱",
-                rate: "4.27%",
+                sub: "超短期",
+                rate: "4.50%",
                 text: "7日年化收益率",
+                have: true,
             }],
         }
     },
@@ -66,6 +70,7 @@ export default {
         position: relative;
         width: 50%;
         box-sizing: border-box;
+        padding: 34px;
         &:after{
           content: " ";
           width: 1px;
@@ -82,8 +87,8 @@ export default {
             display: none;
           }
         }
-        padding: 34px 16px;
         dt{
+          font-weight: bold;
           font-size: 30px;
           line-height: 42px;
           color: #333;
