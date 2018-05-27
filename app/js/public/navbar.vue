@@ -21,12 +21,6 @@
             </li>
             <li>
                 <router-link :to="{ name: 'home'}">
-                    <img src="//img12.360buyimg.com/jrpmobile/jfs/t19729/201/1027312338/1395/95cecd48/5ab85d0eN01f81011.png?width=56&height=56" alt="">
-                    <p>省钱</p>
-                </router-link>
-            </li>
-            <li>
-                <router-link :to="{ name: 'home'}">
                     <img src="//img12.360buyimg.com/jrpmobile/jfs/t10897/141/1894216742/2046/ad0e8dc1/59e9d7feNaa5dd2fd.png?width=60&height=60" alt="">
                     <p>金融会员</p>
                 </router-link>
