@@ -20,7 +20,7 @@
                 </router-link>
             </li>
             <li>
-                <router-link :to="{ name: 'home'}">
+                <router-link :to="{ name: 'mime'}">
                     <img src="//img12.360buyimg.com/jrpmobile/jfs/t10897/141/1894216742/2046/ad0e8dc1/59e9d7feNaa5dd2fd.png?width=60&height=60" alt="">
                     <p>金融会员</p>
                 </router-link>
