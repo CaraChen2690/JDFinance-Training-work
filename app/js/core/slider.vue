@@ -28,6 +28,7 @@ export default {
             default() {
                 return {
                     autoplay: true,
+                    delay: 3000,
                     loop: true,
                     pagination: {
                         el: ".swiper-pagination",

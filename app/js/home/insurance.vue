@@ -34,8 +34,8 @@ export default {
                 src: "//img12.360buyimg.com/jrpmobile/jfs/t9703/119/296348375/11253/b9bc3ce7/59cb637dNf25b0dff.jpg?width=210&height=260",
             }],
             options: {
-                slidesPerView: 2.3,
-                spaceBetween: 30,
+                slidesPerView: 2.5,
+                spaceBetween: 15,
                 freeMode: true,
             },
         }

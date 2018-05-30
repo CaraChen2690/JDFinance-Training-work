@@ -2,6 +2,13 @@
     <div>
         <Heador/>
         <Slider/>
+        <Mactivity></Mactivity>
+        <Chest></Chest>
+        <Crowd></Crowd>
+        <Minsurance></Minsurance>
+        <Mious></Mious>
+        <Stock></Stock>
+        <Recommend></Recommend>
         <Footor cname="mfooter"/>
         <Navbar/>
     </div>
@@ -12,10 +19,24 @@ import Heador from "../public/header.vue"
 import Footor from "../public/footer.vue"
 import Navbar from "../public/navbar.vue"
 import Slider from "./mslider.vue"
+import Mactivity from "./mactivity.vue"
+import Chest from "./chest.vue"
+import Crowd from "./crowd.vue"
+import Minsurance from "./minsurance.vue"
+import Mious from "./mious.vue"
+import Stock from "./stock.vue"
+import Recommend from "./recommend.vue"
 export default {
     components: {
         Heador,
         Slider,
+        Mactivity,
+        Chest,
+        Crowd,
+        Minsurance,
+        Mious,
+        Stock,
+        Recommend,
         Footor,
         Navbar,
     },
