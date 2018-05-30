@@ -157,7 +157,7 @@ export default {
 			}
 		}
 		.help{
-			margin-bottom: 140px;
+			margin-bottom: 120px;
 		}
 	}
 </style>
