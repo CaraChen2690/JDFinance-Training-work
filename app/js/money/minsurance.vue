@@ -150,10 +150,12 @@ export default {
                 font-size: 24px;
                 box-shadow: 0 0 26px 1px rgba(101,118,155,.15);
                 li{
-                  width: 118px;
+                  width: 115px;
                   height: 130px;
                   img{
                     margin: 20px 31px 2px;
+                    width: 56px;
+                    height: 56px;
                   }
                   p{
                     width: 94px;
